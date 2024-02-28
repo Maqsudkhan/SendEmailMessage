@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMessage.API", "SendEmailMessage.API\SendEmailMessage.API.csproj", "{1D681123-7A89-44F9-8552-DB2B56AE4564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendEmailMessage.API", "SendEmailMessage.API\SendEmailMessage.API.csproj", "{1D681123-7A89-44F9-8552-DB2B56AE4564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMessage.Domin", "SendEmailMessage.Domin\SendEmailMessage.Domin.csproj", "{B8BA4A51-1F04-4DFB-B73D-8684B32FE41C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMessage.Application", "SendEmailMessage.Application\SendEmailMessage.Application.csproj", "{3B420D02-D327-45A9-8330-C89DB2884791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMessage.Infrastructure", "SendEmailMessage.Infrastructure\SendEmailMessage.Infrastructure.csproj", "{AEE9B777-99FD-433A-8DFB-6BC2007C9875}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{1D681123-7A89-44F9-8552-DB2B56AE4564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D681123-7A89-44F9-8552-DB2B56AE4564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D681123-7A89-44F9-8552-DB2B56AE4564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BA4A51-1F04-4DFB-B73D-8684B32FE41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BA4A51-1F04-4DFB-B73D-8684B32FE41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BA4A51-1F04-4DFB-B73D-8684B32FE41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BA4A51-1F04-4DFB-B73D-8684B32FE41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B420D02-D327-45A9-8330-C89DB2884791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B420D02-D327-45A9-8330-C89DB2884791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B420D02-D327-45A9-8330-C89DB2884791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B420D02-D327-45A9-8330-C89DB2884791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE9B777-99FD-433A-8DFB-6BC2007C9875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE9B777-99FD-433A-8DFB-6BC2007C9875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE9B777-99FD-433A-8DFB-6BC2007C9875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE9B777-99FD-433A-8DFB-6BC2007C9875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
