@@ -5,7 +5,7 @@ using SendEmailMessage.Domin.Entites.Models;
 
 namespace SendEmailMessage.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class EmailConroller : ControllerBase
     {
